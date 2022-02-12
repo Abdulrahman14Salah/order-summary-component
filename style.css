@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 .container {
-  width: 450px;
+  max-width: 450px;
   margin: 100px 25px;
   text-align: center;
   background-color: white;
