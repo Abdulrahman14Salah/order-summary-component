@@ -20,8 +20,8 @@ body {
 }
 .container {
   max-width: 415px;
-  min-width: 375px;
-  margin: 50px auto;
+  min-width: 385px;
+  margin: 100px auto;
   text-align: center;
   background-color: white;
   border-radius: 15px;
