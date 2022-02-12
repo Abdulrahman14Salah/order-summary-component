@@ -23,8 +23,7 @@ body {
   flex-direction: column;
 }
 .container {
-  max-width: 415px;
-  min-width: 385px;
+  width: 450px;
   margin: 100px 25px;
   text-align: center;
   background-color: white;
@@ -60,7 +59,7 @@ body {
 /* .box-plan img {
 } */
 .box-plan .price {
-  margin-left: -60px;
+  margin-left: -100px;
   text-align: start;
 }
 .box-plan .price h3 {
