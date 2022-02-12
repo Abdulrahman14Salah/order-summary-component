@@ -35,9 +35,9 @@ body {
   width: 100%;
 }
 .container .content {
-  margin: 10px 25px;
+  margin: 10px 42px;
 }
-.container .content h2 {
+.container .content h1 {
   color: var(--Dark-blue);
   padding: 25px 0;
 }
@@ -47,33 +47,37 @@ body {
   font-size: var(--Font-size--paragraph);
 }
 .container .content .box-plan {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  align-items: center;
   background-color: var(--Very-pale-blue);
   width: 100%;
   padding: 20px;
   border-radius: 10px;
-  align-items: center;
   margin-bottom: 30px;
 }
-/* .box-plan img {
-} */
-.box-plan .price {
-  margin-left: -100px;
+.container .content .box-plan .fix-both {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 20px;
+}
+.container .content .box-plan .fix-both .price {
   text-align: start;
 }
-.box-plan .price h3 {
+.container .content .box-plan .fix-both .price h3 {
   color: var(--Dark-blue);
 }
-.container .content .box-plan .price span {
+.container .content .box-plan .fix-both .price span {
   color: var(--Destructed-blue);
 }
-.container .content .box-plan > span {
+.container .content .box-plan .fix-both > span:last-of-type {
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
 }
-.container .content .box-plan > span:hover {
+.container .content .box-plan .fix-both > span:last-of-type:hover {
   color: var(--Bright-blue);
 }
 .container .content .btn {
