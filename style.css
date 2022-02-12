@@ -115,6 +115,7 @@ body {
   font-size: var(--Font-size--paragraph);
   text-align: center;
   padding: 25px;
+  width: 100%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
