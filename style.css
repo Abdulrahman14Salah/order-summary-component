@@ -24,7 +24,7 @@ body {
 }
 .container {
   max-width: 450px;
-  margin: 100px 25px;
+  margin: 100px 45px;
   text-align: center;
   background-color: white;
   border-radius: 15px;
@@ -35,7 +35,7 @@ body {
   width: 100%;
 }
 .container .content {
-  margin: 0 25px;
+  margin: 10px 25px;
 }
 .container .content h2 {
   color: var(--Dark-blue);
@@ -54,7 +54,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 /* .box-plan img {
 } */
