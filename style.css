@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:ital,wght@0,500;0,900;1,700&display=swap");
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Destructed-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --Font-size--paragraph: 16px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-blue);
+}
+.container {
+  max-width: 415px;
+  min-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px #ccc;
+  overflow: hidden;
+  transform: scale(0.8);
+}
+.container .img img {
+  width: 100%;
+}
+.container .content {
+  margin: 0 25px;
+}
+.container .content h2 {
+  color: var(--Dark-blue);
+  padding: 25px 0;
+}
+.container .content p {
+  color: var(--Destructed-blue);
+  margin-bottom: 25px;
+  font-size: var(--Font-size--paragraph);
+}
+.container .content .box-plan {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--Very-pale-blue);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+/* .box-plan img {
+} */
+.box-plan .price {
+  margin-left: -60px;
+  text-align: start;
+}
+.box-plan .price h3 {
+  color: var(--Dark-blue);
+}
+.container .content .box-plan .price span {
+  color: var(--Destructed-blue);
+}
+.container .content .box-plan > span {
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.container .content .box-plan > span:hover {
+  color: var(--Bright-blue);
+}
+.container .content .btn {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.container .content .btn-proceed {
+  width: 100%;
+  background-color: var(--Bright-blue);
+  font-weight: bold;
+  color: white;
+  padding: 15px 0;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.2s;
+}
+.container .content .btn-proceed:hover {
+  box-shadow: 0px 7px 25px 8px #ccc;
+}
+.container .content .btn-cancel {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  margin: 30px;
+  color: var(--Dark-blue);
+  transition: 0.3s;
+}
+.container .content .btn-cancel:hover {
+  color: var(--Bright-blue);
+}
+.attribution {
+  font-size: var(--Font-size--paragraph);
+  text-align: center;
+  padding: 25px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.attribution a:hover {
+  color: var(--Dark-blue-blue);
+}
