@@ -1,6 +1,10 @@
 # Frontend Mentor - Order summary card
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](abdulrahman14salah-github-io-order-summary-component.png)
+
+# Demo
+
+https://abdulrahman14salah.github.io/order-summary-component/
 
 ## Welcome! 👋
 
